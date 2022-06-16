@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family: Gilroy-Light;
+    src: local('quiz-widegt-app'),url('../font/Gilroy-Light.otf');
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: local('quiz-widegt-app'),url('../font/Gilroy-ExtraBold.otf');
+}
+
+.answerOptions{
+   
+    padding:10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.buttonElement{
+
+}
+.button1 {
+    width: auto;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #e2408e;
+    border-color: white;
+    color: white;
+    font-family: Gilroy-Light, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+
+.button2 {
+    margin:10px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: left;
+    border: solid;
+    display: flex;
+    background-color: white;
+    border-color: #e2408e;
+    color: black;
+    font-family: Gilroy-Light, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.button2:hover {
+    background-color: #e2408e;
+    color:white;
+
+}
+
+.button2:focus {
+    outline: none;
+}
+
+.button2 svg {
+    margin-right: 5px;
+}
+
+.dot {
+    height: 125px;
+    width: 125px;
+    background-color: rgb(34, 163, 175);
+    border-radius: 50%;
+    display: block;
+}
+
+.progressBox {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.quizBox {
+    display: grid;
+    grid-template-columns: 150px 650px;
+    grid-template-rows: auto auto auto;
+    box-shadow: 5px 10px rgb(34, 163, 175);
+    width: 800px;
+    border: solid;
+    border-radius: 20px;
+    margin:50px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.Heading {
+    font-family: Gilroy-Bold, Arial, sans-serif;
+    font-size: 33px;
+    text-align: left;
+    line-height: 31pt;
+}
+
+.subHeading {
+    font-family: Gilroy-Light, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
